@@ -5,7 +5,7 @@ import styles from "./page.module.css";
 
 export default function Home() {
   const handleDelete = async () => {
-    const response = await fetch("/api/1", { method: "DELETE" });
+    const response = await fetch("/api/file-sources/1", { method: "DELETE" });
     console.log(response);
   };
 
