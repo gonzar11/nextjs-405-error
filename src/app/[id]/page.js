@@ -21,6 +21,7 @@ export default function Page({ params: { id } }) {
       <a href="https://infobae.com">Infobae</a>
       <Link href="/foo">Foo</Link>
       {state === "1" && <Link href="/something">About Us</Link>}
+      {state === "1" && <Link href="/1">Me</Link>}
 
       {state === "1" && <p>Gonzalo Ricco is a softare Engineer</p>}
       {state === "2" && <p>Gonzalo Ricco is a Musician</p>}
